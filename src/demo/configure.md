@@ -65,53 +65,28 @@ conda activate py310
 
 ### 1.4 Installation related dependencies
 
-#### 1.4.1 GPU Version
+::: tabs#conda
 
-1. Install `Cudatookit` and `Cundnn`
-
-Install `Cudatookit 11.8`
-
+@tab GPU Version#GPU
 ```bash
-conda install cudatoolkit=11.8
-```
-
-Install `Cudnn 8.9.7.29`
-
-```bash
-conda install cudnn=8.9.7.29
-```
-
-2. Install GPU-related dependencies
-
-`pip` Configuration mirror source
-
-```bash
+# Set the mirror source tsinghua.edu
 pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
-```
-
-Switch to the project directory installation dependencies
-
-```bash
+# Install cudatoolkit
+conda install cudatoolkit=11.8
+# Install cudnn
+conda install cudnn=8.9.7.29
+# Install GPU dependencies
 pip install -r requirements-dml.txt
 ```
 
-#### 1.4.2 CPU Version
-
-`CPU Version` doesn't need install `Cudatoolkit` and `Cudnn`
-
-1. Install CPU -related dependencies
-
-`pip` Configuration mirror source
-
+@tab CPU Version#CPU
 ```bash
+# 设置镜像源为 清华源
 pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
-```
-
-Switch to the project directory installation dependencies
-
-```bash
+# 安装 CPU 依赖
 pip install -r requirements-cpu.txt
 ```
+:::
 
 ### 1.5 Precautions
 
@@ -121,7 +96,7 @@ pip install -r requirements-cpu.txt
 ```bash
 python main.py
 ```
-4、If the computer has been installed before this tutorial, the following errors appear when running the script
+4. If the computer has been installed before this tutorial, the following errors appear when running the script
 ```bash
 ImportError: DLL load failed while importing onnxruntime_pybind_state: 动态链接库（DLL）初始化例程失败
 ```

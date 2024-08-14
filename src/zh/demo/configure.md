@@ -65,53 +65,28 @@ conda activate py310
 
 ### 1.4 安装相关依赖
 
-#### 1.4.1 GPU 版本
+::: tabs#conda
 
-1. 安装 `Cudatookit` 和 `Cundnn`
-
-安装 `Cudatookit 11.8`
-
+@tab GPU 版本#GPU
 ```bash
-conda install cudatoolkit=11.8
-```
-
-安装 `Cudnn 8.9.7.29`
-
-```bash
-conda install cudnn=8.9.7.29
-```
-
-2. 安装 GPU 相关依赖
-
-`pip` 配置镜像源
-
-```bash
+# 设置镜像源为 清华源
 pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
-```
-
-切换到项目目录下安装依赖
-
-```bash
+# 安装 cudatoolkit
+conda install cudatoolkit=11.8
+# 安装 cudnn
+conda install cudnn=8.9.7.29
+# 安装 GPU 依赖
 pip install -r requirements-dml.txt
 ```
 
-#### 1.4.2 CPU 版本
-
-`CPU 版本` 不需要安装 `Cudatoolkit` 和 `Cudnn`
-
-1. 安装 CPU 相关依赖
-
-`pip` 配置镜像源
-
+@tab CPU 版本#CPU
 ```bash
+# 设置镜像源为 清华源
 pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
-```
-
-切换到项目目录下安装依赖
-
-```bash
+# 安装 CPU 依赖
 pip install -r requirements-cpu.txt
 ```
+:::
 
 ### 1.5 注意事项
 
@@ -121,7 +96,7 @@ pip install -r requirements-cpu.txt
 ```bash
 python main.py
 ```
-4、如果电脑在此教程之前已经安装过 `CUDA`，且运行脚本时出现以下错误
+4. 如果电脑在此教程之前已经安装过 `CUDA`，且运行脚本时出现以下错误
 ```bash
 ImportError: DLL load failed while importing onnxruntime_pybind_state: 动态链接库（DLL）初始化例程失败
 ```
