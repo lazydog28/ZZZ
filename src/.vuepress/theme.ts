@@ -27,7 +27,7 @@ export default hopeTheme({
       // sidebar
       sidebar: enSidebar,
 
-      footer: "Default footer",
+      footer: "ZonelessZoneZero-Auto © 2024 | Write by SmallPigPig",
 
       displayFooter: true,
 
@@ -46,7 +46,7 @@ export default hopeTheme({
       // sidebar
       sidebar: zhSidebar,
 
-      footer: "绝区零自动化脚本 © 2024，Write by SmallPigPig",
+      footer: "绝区零自动化脚本 © 2024 | Write by SmallPigPig",
 
       displayFooter: true,
     },
@@ -64,7 +64,7 @@ export default hopeTheme({
     // You MUST generate and use your own comment service in production.
     comment: {
       provider: "Waline",
-      serverURL: "https://waline.alphaalist.xyz"
+      serverURL: "https://waline.alphablog.site"
     },
 
     components: {
