@@ -89,11 +89,13 @@ You can see our `Fighting strategy file` basic units and formats are
     repeat: Repeat
 ```
 
-::: tip 提示
+At the same time, after the procedure defaults to each execution twice, the `ordinary combat strategy` (`艾莲.yaml`), execute a `skill combat strategy` (`艾莲技能.yaml`)
+
+::: tip Tips
 In programming, before `:` is `key names`, After `:` is `key value`
 
 ```yaml
-键名: "键值"
+Key names: "Key value"
 ```
 
 At the same time, the beginning of each unit must be `-`, each line needs to be indentified (the `Tab` key on the keyboard), generally four spaces

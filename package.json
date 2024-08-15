@@ -8,7 +8,8 @@
     "docs:build": "vuepress-vite build src",
     "docs:clean-dev": "vuepress-vite dev src --clean-cache",
     "docs:dev": "vuepress-vite dev src",
-    "docs:update-package": "pnpm dlx vp-update"
+    "docs:update-package": "pnpm dlx vp-update",
+    "docs:buildg": "vuepress-vite build src . --dest D:\\Files\\Projects\\Github\\ZonelessZoneZeroDocument\\dist"
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.14",
