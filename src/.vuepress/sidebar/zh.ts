@@ -11,7 +11,18 @@ export const zhSidebar = sidebar({
       children: [
         "required.md",
         "deploy.md",
-        "configure.md"
+        "configure.md",
+        "solve.md"
+      ]
+    },
+    
+    {
+      text: "开发指南",
+      icon: "microchip",
+      prefix: "develop/",
+      link: "develop/",
+      children: [
+        "fight.md"
       ]
     },
 

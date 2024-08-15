@@ -11,7 +11,18 @@ export const enSidebar = sidebar({
       children: [
         "required.md",
         "deploy.md",
-        "configure.md"
+        "configure.md",
+        "solve.md"
+      ]
+    },
+
+    {
+      text: "Develop",
+      icon: "microchip",
+      prefix: "develop/",
+      link: "develop/",
+      children: [
+        "fight.md"
       ]
     },
 

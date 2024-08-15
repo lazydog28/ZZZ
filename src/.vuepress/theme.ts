@@ -80,6 +80,13 @@ export default hopeTheme({
       },
     },
 
+    shiki: {
+      themes: {
+        light: "catppuccin-latte",
+        dark: "one-dark-pro",
+      }
+    },
+
     // All features are enabled for demo, only preserve features you need here
     mdEnhance: {
       align: true,

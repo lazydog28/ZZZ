@@ -81,5 +81,5 @@ highlights:
         link: /demo/configure.html
 
 copyright: false
-footer: 使用 <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VuePress Theme Hope</a> Theme | MIT Licence, all rights reserved © 2019-Now Mr.Hope
+footer: Use <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VuePress Theme Hope</a> Theme | MIT Licence, all rights reserved © 2019-Now Mr.Hope
 ---
