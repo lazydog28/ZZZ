@@ -1,0 +1,1 @@
+const t="/image/MonitorSearch.png",s="/image/MonitorSetting.png",n="/image/DPI.png",g="/image/GameSettings.png",o="/image/FontSettings.png",i="/image/LanguageSettings.png",a="/image/ControlSettings.png",e="/image/Page.png";export{t as _,s as a,n as b,g as c,o as d,i as e,a as f,e as g};
