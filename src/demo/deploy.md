@@ -1,7 +1,6 @@
 ---
 title: Quick Start
 icon: gears
-order: 4
 category:
   - Use guide
 tag:

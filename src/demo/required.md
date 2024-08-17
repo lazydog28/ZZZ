@@ -1,7 +1,6 @@
 ---
 title: Environment
 icon: terminal
-order: 4
 category:
   - Use guide
 tag:

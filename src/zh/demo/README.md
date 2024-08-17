@@ -1,6 +1,5 @@
 ---
 title: 快速入门
-index: false
 comment: false
 next: false
 editLink: false

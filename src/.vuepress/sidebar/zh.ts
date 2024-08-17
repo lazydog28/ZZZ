@@ -38,5 +38,17 @@ export const zhSidebar = sidebar({
         "updatelog.md"
       ]
     },
+
+    {
+      text: "关于网站",
+      icon: "message",
+      prefix: "website/",
+      link: "website/",
+      children: [
+        "contribute.md",
+        "format.md",
+        "updatelog.md"
+      ]
+    },
   ],
 });

@@ -38,5 +38,17 @@ export const enSidebar = sidebar({
         "updatelog.md"
       ]
     },
+
+    {
+      text: "Website",
+      icon: "message",
+      prefix: "website/",
+      link: "website/",
+      children: [
+        "contribute.md",
+        "format.md",
+        "updatelog.md"
+      ]
+    }
   ],
 });

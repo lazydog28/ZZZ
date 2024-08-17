@@ -1,6 +1,5 @@
 ---
 title: Get Start
-index: false
 comment: false
 next: false
 editLink: false

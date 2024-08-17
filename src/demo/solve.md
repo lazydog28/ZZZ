@@ -1,7 +1,6 @@
 ---
 title: Solve
 icon: circle-check
-order: 4
 category:
   - Use guide
 tag:

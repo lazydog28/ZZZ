@@ -13,11 +13,7 @@ next: false
 comment: false
 ---
 
-## 1 Before Read
-
-In order to help developers better develop combat strategies, this page will tell some basic combat strategy settings. If you have a good strategy, you are welcome to [Project Home](https://github.com/?q=zenle) PR
-
-## 2 基本代码
+## 1 Basic code
 
 To `fight\tactics\艾莲.yaml` as an example
 
@@ -113,11 +109,11 @@ We call the code from the first section of `yaml` as a `unit`
 
 You know this can be developed, I will explain in detail the parameters of the `fighting strategy file`
 
-## 3 Details
+## 2 Details
 
 This chapter aims to introduce the content corresponding to the `key value` of each `key name`
 
-### 3.1 key
+### 2.1 key
 
 **Key name description:** When executing to the unit, press which key
 
@@ -141,7 +137,7 @@ This chapter aims to introduce the content corresponding to the `key value` of e
 -   key: "left"
 ```
 
-### 3.2 type
+### 2.2 type
 
 **Key name description:** When the unit is executed, how should the key should be executed?
 
@@ -170,7 +166,7 @@ This chapter aims to introduce the content corresponding to the `key value` of e
     type: "up"
 ```
 
-### 3.3 duration
+### 2.3 duration
 
 **Key name description:** When you execute it to the unit, how long do you need to press the button?
 
@@ -185,7 +181,7 @@ This chapter aims to introduce the content corresponding to the `key value` of e
     duration: 0.025
 ```
 
-### 3.4 delay
+### 2.4 delay
 
 **Key name description:** How long does it take to interval when performing the unit
 
@@ -201,7 +197,7 @@ This chapter aims to introduce the content corresponding to the `key value` of e
     delay: 0.1
 ```
 
-### 3.4 repeat
+### 2.5 repeat
 
 **Key name description:** You need to be executed several times the unit
 
