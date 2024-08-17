@@ -1,0 +1,28 @@
+.docsearch-container {
+    cursor: default !important;
+    display: none !important;
+    
+}
+
+.DocSearch-Button-Keys {
+    margin: 0 16px 0 16px !important;
+    opacity: 0 !important;
+}
+
+.btn-toggle-menus {
+    height: 30px;
+    position: relative;
+    border-width: 0;
+    background: transparent;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+}
+
+.btn-toggle-menus>span {
+    position: relative;
+    overflow: hidden;
+    width: 24px;
+    height: 30px;
+}

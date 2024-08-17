@@ -1,7 +1,6 @@
 ---
 title: Feedback
 icon: bug
-order: 4
 category:
   - Help
 tag:

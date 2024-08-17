@@ -1,7 +1,6 @@
 ---
 title: Discuss
 icon: comments
-order: 4
 category:
   - Help
 tag:

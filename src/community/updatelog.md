@@ -1,7 +1,6 @@
 ---
 title: Update Log
 icon: calendar
-order: 4
 category:
   - Help
 tag:

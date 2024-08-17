@@ -1,7 +1,6 @@
 ---
 title: Settings
 icon: sliders
-order: 2
 category:
   - Use guide
 tag:
