@@ -4,7 +4,7 @@ import { enSidebar, zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
   fullscreen: true,
-  hostname: "https://zzz.alphablog.site",
+  hostname: "https://fairy.autoscript.site",
 
   author: {
     name: "SmallPigPig",
@@ -13,7 +13,7 @@ export default hopeTheme({
 
   iconAssets: "fontawesome-with-brands",
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  logo: "/logo.png",
 
   repo: "https://github.com/sMythicalBird/ZenlessZoneZero-Auto",
 
