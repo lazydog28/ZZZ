@@ -17,24 +17,6 @@ category:
 
 本项目的当前目标是可以让玩家从每周长时间的零号空洞材料刷取中解放出来，只需要在电脑上挂着就可以自动完成。本项目后续也会继续考虑增加其他自动化操作，帮助玩家做到日常托管
 
-<ArtPlayer
-  src="/videos/preview.mp4"
-  autoplay
-  muted
-  airplay
-  aspect-ratio
-  auto-size
-  auto-orientation
-  auto-playback
-  flip
-  loop
-  is-live
-  no-hotkey
-  no-fullscreen
-  no-playback-rate
-  no-setting
-  no-mutex
-/>
 
 ### 项目活跃度
 
